@@ -1,0 +1,20 @@
+
+$color: aqua;
+$color-background: rgb(207, 207, 9)
+;
+
+
+header{
+    background-color: $color;
+    nav{
+        text-align: center;
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            &:hover{
+                color: $color-background;
+            }
+        }
+    }
+}
+
+   
